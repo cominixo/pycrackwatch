@@ -1,0 +1,9 @@
+.pytest_cache/*
+*/__pycache__
+
+pycrackwatch.egg-info/*
+build/*
+dist/*
+
+.tox/*
+.coverage
