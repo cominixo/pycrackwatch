@@ -2,6 +2,7 @@ from pycrackwatch import api
 from datetime import datetime
 import unittest
 
+
 class TestCrackwatch(unittest.TestCase):
 
     def setUp(self):

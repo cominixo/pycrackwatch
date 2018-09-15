@@ -3,6 +3,7 @@ from .models import Crack, Game
 
 _base_url = 'http://api.crackwatch.com/api/{}'
 
+
 def getCracks():
     url = _base_url.format('cracks')
     req = requests.get(url)
@@ -15,6 +16,7 @@ def getCracks():
         crack_list.append(crack)
 
     return crack_list
+
 
 def getGames():
     url = _base_url.format('games')
